@@ -1,9 +1,19 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useEffect } from "react-router-dom";
 import HomeSelect from "./HomeSelect";
 
 const Home = () => {
   let navigate = useNavigate();
+  useEffect(() => {
+    if(localStorage.getItem('token')){
+      getNotes();
+    }
+    else{
+      history.push('/login')
+    }
+    // eslint-disable-next-line 
+    }, []);
+
   return (
     <div className="home">
       <div className="top-row ">
