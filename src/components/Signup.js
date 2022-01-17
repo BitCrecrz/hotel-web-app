@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Signup = () => {
@@ -8,6 +8,15 @@ const Signup = () => {
     password: "",
   });
   let navigate = useNavigate();
+  useEffect(() => {
+    if(localStorage.getItem('token')){
+      navigate(`/home`)
+    }
+    else{
+      
+    }
+    // eslint-disable-next-line 
+    }, []);
   const onSubmit = async (e) => {
     e.preventDefault();
     // Api Call
