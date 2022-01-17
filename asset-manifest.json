@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hotel-web-app/static/css/main.31da2d9a.css",
-    "main.js": "/hotel-web-app/static/js/main.97d1b424.js",
+    "main.css": "/hotel-web-app/static/css/main.64057f10.css",
+    "main.js": "/hotel-web-app/static/js/main.7ead934d.js",
     "index.html": "/hotel-web-app/index.html",
-    "main.31da2d9a.css.map": "/hotel-web-app/static/css/main.31da2d9a.css.map",
-    "main.97d1b424.js.map": "/hotel-web-app/static/js/main.97d1b424.js.map"
+    "main.64057f10.css.map": "/hotel-web-app/static/css/main.64057f10.css.map",
+    "main.7ead934d.js.map": "/hotel-web-app/static/js/main.7ead934d.js.map"
   },
   "entrypoints": [
-    "static/css/main.31da2d9a.css",
-    "static/js/main.97d1b424.js"
+    "static/css/main.64057f10.css",
+    "static/js/main.7ead934d.js"
   ]
 }
