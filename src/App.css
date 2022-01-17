@@ -1,38 +1,41 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.alert {
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+.covid {
   text-align: center;
+  padding-top: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home {
+  background-image: url(https://tp-0b0d4ae7c3-prod-frt-shared-provision-drupal-blog-web-3685e.s3.amazonaws.com/blog/s3fs-public/2019-02/architecture-chair-contemporary-1001965.jpg);
+  height: 92.4vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.top-row {
+  text-align: right;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.middle-row {
+  text-align: center;
+  text-decoration: underline;
+  text-underline-position: under;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.selectform {
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  margin-top: 25px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.selction-holder {
+  color: black;
 }
